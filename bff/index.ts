@@ -1,3 +1,5 @@
+import "./styles/styles.scss"
+
 type ElmPagesInit = {
   load: (elmLoaded: Promise<unknown>) => Promise<void>;
   flags: unknown;
